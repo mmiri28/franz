@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Francis the Blackman</title>
+  <meta name="description" content="The Great Sunrise Expedition: a hopelessly misplanned adventure starring Francis.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <p class="kicker">A true-ish story</p>
+    <h1>Francis the Blackman</h1>
+    <p class="subtitle">and the Great Sunrise Expedition</p>
+    <a class="btn" href="#chapter-1">Start the adventure ↓</a>
+  </header>
+
+  <nav class="toc" aria-label="Chapters">
+    <a href="#chapter-1">1. The Plan</a>
+    <a href="#chapter-2">2. The Alarm</a>
+    <a href="#chapter-3">3. The Bus</a>
+    <a href="#chapter-4">4. The Mountain</a>
+    <a href="#chapter-5">5. The Sunrise</a>
+  </nav>
+
+  <main>
+    <section id="chapter-1" class="chapter">
+      <span class="num">Chapter 1</span>
+      <h2>The Plan</h2>
+      <p>Francis had seen one photo of a sunrise from a mountaintop, and that was enough. "This weekend," he announced to everyone in the group chat, "I will stand above the clouds and watch the sun rise like a king."</p>
+      <p>His preparation was thorough. He bought a headlamp. He bought a second headlamp in case the first one got lonely. He packed three sandwiches, a flask of tea, and a folding chair, because kings do not stand for long.</p>
+      <p>What he did not pack was a map. "Maps are for people without instinct," he said.</p>
+    </section>
+
+    <section id="chapter-2" class="chapter">
+      <span class="num">Chapter 2</span>
+      <h2>The Alarm</h2>
+      <p>The sunrise was at 6:42. The hike took two hours. Francis, a mathematician at heart, set his alarm for 4:00.</p>
+      <p>Unfortunately, he set it for 4:00 <em>PM</em>.</p>
+      <p>He woke at 5:51 anyway, thanks to a neighbour's very dedicated rooster, and leapt out of bed with the energy of a man who has made a terrible mistake and refuses to admit it. "No problem," he told the rooster. "I will simply walk faster."</p>
+    </section>
+
+    <section id="chapter-3" class="chapter">
+      <span class="num">Chapter 3</span>
+      <h2>The Bus</h2>
+      <p>Francis caught the first bus he saw, on the reasonable logic that all buses go somewhere and mountains are somewhere.</p>
+      <p>Forty minutes later, the bus stopped at a goat farm. The driver turned around. "Last stop," he said. Francis looked out the window. There was a hill. It was not a mountain, but it was trying its best.</p>
+      <p>"This is the one," Francis declared, and got off with his folding chair.</p>
+    </section>
+
+    <section id="chapter-4" class="chapter">
+      <span class="num">Chapter 4</span>
+      <h2>The Mountain</h2>
+      <p>The climb was brutal. It took eleven minutes. Halfway up, a goat began following him. Francis named it Captain and gave it half a sandwich, which turned out to be a strategic error, because Captain now considered himself a member of the expedition and wanted the other two sandwiches as payment.</p>
+      <p>At the top, Francis unfolded his chair, switched on both headlamps, and poured his tea. Captain stood beside him like a loyal knight. The sky was beginning to glow.</p>
+    </section>
+
+    <section id="chapter-5" class="chapter">
+      <span class="num">Chapter 5</span>
+      <h2>The Sunrise</h2>
+      <p>The sun rose. It was magnificent. It was golden. It was, Francis slowly realised, rising directly <em>behind</em> him.</p>
+      <p>He had set up his chair facing west.</p>
+      <p>Captain ate the last sandwich while Francis turned the chair around. By the time he sat back down, the sun was fully up and very bright and not doing anything special anymore.</p>
+      <p>Francis took a selfie with Captain anyway. He posted it to the group chat with one caption:</p>
+      <blockquote>"Stood above the clouds. Watched the sunrise like a king. Made a new friend. 10/10 expedition, would plan again."</blockquote>
+      <p>Nobody had the heart to point out that there were no clouds, and the hill was 300 metres tall.</p>
+    </section>
+
+    <section class="stats">
+      <h2>Expedition Report</h2>
+      <ul>
+        <li><strong>2</strong><span>headlamps used</span></li>
+        <li><strong>11</strong><span>minutes of climbing</span></li>
+        <li><strong>3</strong><span>sandwiches lost to Captain</span></li>
+        <li><strong>180°</strong><span>wrong direction</span></li>
+      </ul>
+    </section>
+
+    <section class="vote">
+      <h2>Rate the expedition</h2>
+      <p>How did Francis do?</p>
+      <div class="buttons">
+        <button type="button" data-msg="Francis thanks you. He is already planning the sequel.">Legendary 👑</button>
+        <button type="button" data-msg="Captain the goat agrees with you.">Needs a map 🗺️</button>
+        <button type="button" data-msg="Francis has set his alarm for 4:00 PM in protest.">Stay home next time 🛏️</button>
+      </div>
+      <p id="vote-result" class="result" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made for a class project. Starring Francis, who is fully in on the joke. No goats were harmed.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
