@@ -15,14 +15,14 @@ Just open `index.html` in a browser.
 
 ## Deploy on Netlify (via GitHub)
 
-1. Create an empty repository on GitHub called `francis-the-blackman` (no README, no .gitignore).
+1. The GitHub repository is [`mmiri28/franz`](https://github.com/mmiri28/franz).
 2. In this folder, run:
    ```bash
-   git remote add origin https://github.com/<your-username>/francis-the-blackman.git
+   git remote add origin https://github.com/mmiri28/franz.git
    git branch -M main
    git push -u origin main
    ```
-3. On Netlify: **Add new site → Import an existing project → GitHub**, pick the repo.
+3. On Netlify: **Add new site → Import an existing project → GitHub**, pick `mmiri28/franz`.
 4. Leave the build command empty and the publish directory as `.` (already set in `netlify.toml`), then click **Deploy**.
 
 Every push to `main` will redeploy the site automatically.
